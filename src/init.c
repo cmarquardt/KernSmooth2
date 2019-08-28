@@ -61,7 +61,7 @@ static const R_FortranMethodDef FortEntries[] = {
 };
 
 
-void R_init_KernSmooth(DllInfo *dll)
+void R_init_KernSmooth2(DllInfo *dll)
 {
     R_registerRoutines(dll, NULL, NULL, FortEntries, NULL);
     R_useDynamicSymbols(dll, FALSE);
